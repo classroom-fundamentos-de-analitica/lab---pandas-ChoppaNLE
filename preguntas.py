@@ -43,7 +43,6 @@ def pregunta_03():
     E    14
     Name: _c1, dtype: int64
     """
-    
     return tbl0.groupby(tbl0._c1).count()["_c0"]
 
 
